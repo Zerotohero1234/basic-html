@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ລົງທະບຽນ</title>
+    <style>
+        body{
+            font-family: Phetsarath OT;
+        }
+        form{
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>ແບບຟອມລົງທະບຽນ</h1>
+    <form>
+        <div>
+            <label for="firstname">ຊື່ແທ້</label>
+            <input type="text" name="fname" placeholder="ປ້ອນຊື້ແທ້ຂອງທ່ານ (ກ-ຮ)" required>
+        </div>
+        <div>
+            <label for="lastname">ນາມສະກຸນ</label>
+            <input type="text" name="lname">
+        </div>
+        <div>
+            <label for="email">ອີເມວ</label>
+            <input type="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">ລະຫັດຜ່ານ</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            <label for="">ທີ່ຢູ່</label>
+            <textarea name="" id="" cols="20" rows="5" readonly>
+                   ອ່ານໄດ້ຢ່າງດຽວ
+            </textarea>
+        </div>
+        <div>
+            <label for="password">ອາຍຸ</label>
+            <input type="number" name="age" min="0" max="25" value="2" readonly>
+        </div>
+        <div>
+            <label for="brithdate">ວັນເກີດ</label>
+            <input type="date" name="brithdate">
+        </div>
+        <div>
+            <label for="password">ເບີໂທ</label>
+            <input type="tel" name="tel">
+        </div>
+        <div>
+            <label for="password">ສີທີມັກ</label>
+            <input type="color" name="color">
+        </div>
+        <div>
+            <label for="lastname">ຊ່ວງຕົວເລກ</label>
+            <input type="range" name="rangenumber" value="5">
+        </div>
+        <div>
+            <label for="lastname">ລະດັບການສຶກສາ</label>
+            <select name="edu" id="">
+                <option value="ມັດທະຍົມ">ມັດທະຍົມ</option>
+                <option value="ປະລິນຍາຕີ">ປະລິນຍາຕີ</option>
+                <option value="ປະລິນຍາໂທ" selected>ປະລິນຍາໂທ</option>
+            </select>
+        </div>
+        <div>
+            <label for="lastname">ເພດ</label>
+            <input type="radio" name="gender">ເພດຊາຍ
+            <input type="radio" name="gender">ເພດຍິງ
+            <input type="radio" name="gender">ກຳນົດເອງ
+        </div>
+        <div>
+            <label for="lastname">ສິ່ງທີ່ມັກ</label>
+            <input type="checkbox" name="fav">ຂຽນເວັບ
+            <input type="checkbox" name="fav">ສ້າງເກມ
+            <input type="checkbox" name="fav">ແປງຄອມ
+            <input type="checkbox" name="fav">ຫຼິ້ນເກມ
+            <input type="checkbox" name="fav">ອື່ນໆ
+            </select>
+        </div>
+        <div>
+            <label for="lastname">ແນບເອກະສານ</label>
+            <input type="file">
+        </div>
+        <div>
+            <label for="lastname">ເວັບໄຊ</label>
+            <input type="url">
+        </div>
+        <div>
+            <button type="submit">ບັນທຶກຂໍ້ມູນ</button>
+            <button type="reset">ລ້າງຂໍ້ມູນ</button>
+        </div>
+    </form>
+</body>
+</html>

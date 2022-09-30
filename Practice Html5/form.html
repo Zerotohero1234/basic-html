@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ລົງທະບຽນ</title>
+    <style>
+        form{
+            border: 2px solid blue;
+        }
+        body{
+            font-family: Phetsarath OT;
+        }
+    </style>
+</head>
+<body>
+    <h1>ແບບຟອມລົງທະບຽນ</h1>
+        <form>
+            <div>
+                <label for="fname">ຊື່ແທ້</label>
+                <input type="text" placeholder="ປ້ອນຊື່ແທ້ຂອງທ່ານ (ກ-ຮ)" required>
+            </div>
+            <div>
+                <label for="lname">ນາມສະກຸນ</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="email">ອີເມວ</label>
+                <input type="email" name="email" required>
+            </div>
+            <div>
+                <label for="password">ລະຫັດຜ່ານ</label>
+                <input type="password" name="password">
+            </div>
+            <div>
+                <label for="address">ທີ່ຢູ່</label>
+               <textarea name="address" id="" cols="20" rows="5" readonly>
+                            ອ່ານໄດ້ຢ່າງດຽວ
+                </textarea>
+            </div>
+            <div>
+                <label for="age">ອາຍຸ</label>
+                <input type="number" value="2" readonly min="0" max="24">
+            </div>
+            <div>
+                <label for="birthdate">ວັນເກີດ</label>
+                <input type="date" name="birthdate">
+            </div>
+            <div>
+                <label for="tel">ເບີໂທ</label>
+                <input type="tel" name="tel">
+            </div>
+            <div>
+                <label for="fvcolor">ສີທີ່ມັກ</label>
+                <input type="color" name="favcolor">
+            </div>
+            <div>
+                <label for="rangenumber">ຊ່ວງຕົວເລກ</label>
+                <input type="range" value="10" name="rangenumber">
+            </div>
+            <div>
+                <label for="fname">ລະດັບການສຶກສາ</label>
+                <select name="edu" id="">
+                    <option value="ມັດທະຍົມ">ມັດທະຍົມ</option>
+                    <option value="ມັດທະຍົມ">ປະລິນຍາຕີ</option>
+                    <option value="ປະລິນຍາໂທ" selected>ປະລິນຍາໂທ</option>
+                </select>
+            </div>
+            <div>
+                <label for="sex">ເພດ</label>
+                <input type="radio" name="favcolor">ເພດຊາຍ
+                <input type="radio" name="favcolor">ເພດຍິງ
+                <input type="radio" name="favcolor">ກຳນົດເອງ
+            </div>
+            <div>
+                <label for="yourfav">ສິ່ງທີ່ມັກ</label>
+                <input type="checkbox" name="yourfav">ຂຽນເວັບ
+                <input type="checkbox" name="yourfav">ສ້າງເກມ
+                <input type="checkbox" name="yourfav">ແປງຄອມ
+                <input type="checkbox" name="yourfav">ຫຼິ້ນເກມ
+                <input type="checkbox" name="yourfav">ອື່ນໆ
+            </div>
+            <div>
+                <label for="file">ແນບເອກະສານ</label>
+                <input type="file" name="file">
+            </div>
+            <div>
+                <label for="url">ເວັບໄຊ</label>
+                <input type="url" name="url">
+            </div>
+            <div>
+                <button type="submit">ບັນທຶກຂໍ້ມູນ</button>
+                <button type="reset">ລ້າງຂໍ້ມູນ</button>
+            </div>
+        </form>
+</body>
+</html>
